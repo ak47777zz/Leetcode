@@ -56,6 +56,8 @@
 
 package leetcode.editor.cn;
 
+import leetcode.editor.cn.ReverseLinkedList206.ListNode;
+
 /**
  * 25:K 个一组翻转链表
  */
@@ -77,43 +79,32 @@ public class ReverseNodesInKGroup25 {
 
     class Solution {
         public ListNode reverseKGroup(ListNode head, int k) {
-            ListNode hair = new ListNode(0);
-            hair.next = head;
-            ListNode pre = hair;
-
-            while (head != null) {
-                ListNode tail = pre;
-                // 查看剩余部分长度是否大于等于 k
-                for (int i = 0; i < k; ++i) {
-                    tail = tail.next;
-                    if (tail == null) {
-                        return hair.next;
-                    }
+            if (head == null) {
+                return null;
+            }
+            // 判断a到b区间节点是否大于K
+            ListNode a = head, b = head;
+            for (int i = 0; i < k; i++) {
+                if (b == null) {
+                    return head;
                 }
-                ListNode nex = tail.next;
-                ListNode[] reverse = myReverse(head, tail);
-                head = reverse[0];
-                tail = reverse[1];
-                // 把子链表重新接回原链表
-                pre.next = head;
-                tail.next = nex;
-                pre = tail;
-                head = tail.next;
+                b = b.next;
             }
 
-            return hair.next;
+            ListNode newHead = reverseList(a, b);
+            a.next = reverseKGroup(b, k);
+            return newHead;
         }
 
-        public ListNode[] myReverse(ListNode head, ListNode tail) {
-            ListNode tailNext = tail.next;
-            ListNode cur = head;
-            while (tailNext != tail) {
-                ListNode next = cur.next;
-                cur.next = tailNext;
-                tailNext = cur;
-                cur = next;
+        public ListNode reverseList(ListNode head,ListNode tail) {
+            ListNode pre = null;
+            while (head != tail) {
+                ListNode next = head.next;
+                head.next = pre;
+                pre = head;
+                head = next;
             }
-            return new ListNode[]{tail, head};
+            return pre;
         }
 
     }

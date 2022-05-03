@@ -25,6 +25,39 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BinaryTreeLevelOrderTraversal102.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/BinaryTreeLevelOrderTraversal102.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com102" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BinaryTreeLevelOrderTraversal102.java" />
+              <option name="titleSlug" value="binary-tree-level-order-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BinaryTreeZigzagLevelOrderTraversal103.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/BinaryTreeZigzagLevelOrderTraversal103.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com103" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BinaryTreeZigzagLevelOrderTraversal103.java" />
+              <option name="titleSlug" value="binary-tree-zigzag-level-order-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KthLargestElementInAnArray215.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/KthLargestElementInAnArray215.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com215" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KthLargestElementInAnArray215.java" />
+              <option name="titleSlug" value="kth-largest-element-in-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters3.java">
           <value>
             <LeetcodeEditor>
@@ -66,6 +99,28 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReverseNodesInKGroup25.java" />
               <option name="titleSlug" value="reverse-nodes-in-k-group" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SortAnArray912.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/SortAnArray912.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com912" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SortAnArray912.java" />
+              <option name="titleSlug" value="sort-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ThreeSum15.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/ThreeSum15.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com15" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ThreeSum15.java" />
+              <option name="titleSlug" value="3sum" />
             </LeetcodeEditor>
           </value>
         </entry>

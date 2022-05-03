@@ -66,26 +66,10 @@ public class 两数之和1 {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        //public int[] twoSum(int[] nums, int target) {
-        //    // 记录数字值与下标
-        //    // key:值 value:下标
-        //    HashMap<Integer, Integer> index = new HashMap<>();
-        //    for (int i = 0; i < nums.length; i++) {
-        //        index.put(nums[i], i);
-        //    }
-        //    for (int i = 0; i < nums.length; i++) {
-        //        int need = target - nums[i];
-        //        // 需要的数值存在并且不是自己
-        //        if (index.containsKey(need) && index.get(need) != i) {
-        //            return new int[] {i, index.get(need),};
-        //        }
-        //    }
-        //    return new int[] {-1, -1};
-        //}
-
+        // 通过map记录数字值与下标，计算need是否在map中
         public int[] twoSum(int[] nums, int target) {
             // 记录数字值与下标
-            HashMap<Integer, Integer> index = new HashMap<>();
+            HashMap<Integer/*value*/, Integer/*index*/> index = new HashMap<>();
             for (int i = 0; i < nums.length; i++) {
                 int need = target - nums[i];
                 if (index.containsKey(need)) {
